@@ -1,0 +1,318 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Microsoft JhengHei", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding: 40px 0 24px 0;
+  border-bottom: 2px solid #000000;
+}
+header img {
+  padding: 48px 0;
+}
+
+section h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000000;
+}
+section h2 span {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  padding-left: 16px;
+  color: #a00404;
+}
+section p {
+  margin-top: 16px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.skillContainer {
+  width: 996px;
+  margin: 0 auto;
+}
+
+.skill {
+  background-color: #415165;
+  text-align: center;
+}
+.skill h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 24px 0 8px 0;
+  border-bottom: 1px solid #ffffff;
+}
+.skill h2 span {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  padding-left: 16px;
+  color: #ffffff;
+}
+.skill .skill-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.skill .skill-detail ul {
+  margin: 40px 0;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  padding-left: 24px;
+  border-left: 1px solid #96a9c4;
+}
+.skill .skill-detail ul li {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.work-experience-detail {
+  border-left: 1px solid #96a9c4;
+  margin-left: 1.5rem;
+  margin-top: 16px;
+  margin-bottom: 80px;
+}
+.work-experience-detail li {
+  padding-left: 24px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.work-experience-detail li img {
+  display: block;
+}
+.work-experience-detail li p {
+  width: 642px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+footer {
+  background-color: #415165;
+  text-align: center;
+  color: #ffffff;
+}
+footer h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  padding: 24px 0 8px 0;
+  border-bottom: 1px solid #ffffff;
+}
+footer h2 span {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  padding-left: 16px;
+}
+footer .method {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+footer .method a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .method a:hover {
+  color: #a00404;
+}
+footer .platform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 16px 0 40px 0;
+}
+
+.title-en-top {
+  vertical-align: 5px;
+}
+
+.pt-8 {
+  padding-top: 8px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
