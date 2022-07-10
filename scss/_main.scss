@@ -7,7 +7,7 @@ header {
   h1 {
     font-size: 80px;
     line-height: 95px;
-    padding: 40px 0 24px 0;
+    padding: 40px 0 22px 0;
     border-bottom: 2px solid #000000;
   }
   img {
@@ -20,7 +20,7 @@ section {
     font-size: $font-l;
     line-height: $line-height-l;
     font-weight: $font-weight-Medium;
-    padding-bottom: 8px;
+    padding-bottom: 7px;
     border-bottom: 1px solid #000000;
     span {
       font-size: $font-m;
@@ -50,7 +50,7 @@ section {
     line-height: $line-height-l;
     font-weight: $font-weight-Medium;
     color: #ffffff;
-    padding: 24px 0 8px 0;
+    padding: 24px 0 7px 0;
     border-bottom: 1px solid #ffffff;
     span {
       font-size: $font-m;
@@ -109,7 +109,7 @@ footer {
     font-size: $font-l;
     line-height: $line-height-l;
     font-weight: $font-weight-Medium;
-    padding: 24px 0 8px 0;
+    padding: 24px 0 7px 0;
     border-bottom: 1px solid #ffffff;
     span {
       font-size: $font-m;
@@ -130,11 +130,6 @@ footer {
       }
     }
   }
-  .platform {
-    display: flex;
-    justify-content: center;
-    padding: 16px 0 40px 0;
-  }
 }
 
 .title-en-top {
@@ -143,6 +138,10 @@ footer {
 
 .pt-8 {
   padding-top: 8px;
+}
+
+.pt-16 {
+  padding-top: 16px;
 }
 
 .mb-64 {
@@ -163,4 +162,13 @@ footer {
 
 .mr-24 {
   margin-right: 24px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.d-inline-block {
+  display: inline-block;
+  vertical-align: top;
 }
