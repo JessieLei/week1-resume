@@ -45,12 +45,14 @@ section {
 .skill {
   background-color: $primary-color;
   text-align: center;
+  padding: 24px 0 40px 0;
   h2 {
     font-size: $font-l;
     line-height: $line-height-l;
     font-weight: $font-weight-Medium;
     color: #ffffff;
-    padding: 24px 0 7px 0;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
     border-bottom: 1px solid #ffffff;
     span {
       font-size: $font-m;
@@ -61,11 +63,10 @@ section {
     }
   }
   .skill-detail {
-    display: flex;
-    justify-content: center;
     ul {
-      margin: 40px 0;
-      text-align-last: left;
+      width: 225px;
+      margin: 0 auto;
+      text-align: left;
       padding-left: 24px;
       border-left: 1px solid #96a9c4;
       li {
@@ -131,6 +132,8 @@ footer {
     }
   }
 }
+
+/* 微調設定 */
 
 .title-en-top {
   vertical-align: 5px;

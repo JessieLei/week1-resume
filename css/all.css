@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -188,13 +189,15 @@ section p {
 .skill {
   background-color: #415165;
   text-align: center;
+  padding: 24px 0 40px 0;
 }
 .skill h2 {
   font-size: 32px;
   line-height: 48px;
   font-weight: 500;
   color: #ffffff;
-  padding: 24px 0 7px 0;
+  padding-bottom: 7px;
+  margin-bottom: 40px;
   border-bottom: 1px solid #ffffff;
 }
 .skill h2 span {
@@ -204,18 +207,10 @@ section p {
   padding-left: 16px;
   color: #ffffff;
 }
-.skill .skill-detail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
 .skill .skill-detail ul {
-  margin: 40px 0;
-  -moz-text-align-last: left;
-       text-align-last: left;
+  width: 225px;
+  margin: 0 auto;
+  text-align: left;
   padding-left: 24px;
   border-left: 1px solid #96a9c4;
 }
@@ -280,6 +275,7 @@ footer .method a:hover {
   color: #a00404;
 }
 
+/* 微調設定 */
 .title-en-top {
   vertical-align: 5px;
 }
