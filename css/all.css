@@ -142,7 +142,8 @@ table {
 }
 
 body {
-  font-family: "Microsoft JhengHei", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
 }
 
 .container {
@@ -162,14 +163,12 @@ header img {
 
 section h2 {
   font-size: 32px;
-  line-height: 48px;
   font-weight: 500;
   padding-bottom: 7px;
   border-bottom: 1px solid #000000;
 }
 section h2 span {
   font-size: 24px;
-  line-height: 36px;
   font-weight: 600;
   padding-left: 16px;
   color: #a00404;
@@ -177,7 +176,6 @@ section h2 span {
 section p {
   margin-top: 16px;
   font-size: 24px;
-  line-height: 36px;
   font-weight: 300;
 }
 
@@ -193,7 +191,6 @@ section p {
 }
 .skill h2 {
   font-size: 32px;
-  line-height: 48px;
   font-weight: 500;
   color: #ffffff;
   padding-bottom: 7px;
@@ -202,21 +199,18 @@ section p {
 }
 .skill h2 span {
   font-size: 24px;
-  line-height: 36px;
   font-weight: 600;
   padding-left: 16px;
   color: #ffffff;
 }
 .skill .skill-detail ul {
-  width: 225px;
-  margin: 0 auto;
+  display: inline-block;
   text-align: left;
   padding-left: 24px;
   border-left: 1px solid #96a9c4;
 }
 .skill .skill-detail ul li {
   font-size: 24px;
-  line-height: 36px;
   font-weight: 300;
   color: #ffffff;
 }
@@ -230,7 +224,6 @@ section p {
 .work-experience-detail li {
   padding-left: 24px;
   font-size: 24px;
-  line-height: 36px;
   font-weight: 500;
 }
 .work-experience-detail li img {
@@ -239,7 +232,6 @@ section p {
 .work-experience-detail li p {
   width: 642px;
   font-size: 20px;
-  line-height: 30px;
   font-weight: 300;
   margin: 0;
 }
@@ -251,20 +243,17 @@ footer {
 }
 footer h2 {
   font-size: 32px;
-  line-height: 48px;
   font-weight: 500;
   padding: 24px 0 7px 0;
   border-bottom: 1px solid #ffffff;
 }
 footer h2 span {
   font-size: 24px;
-  line-height: 36px;
   font-weight: 500;
   padding-left: 16px;
 }
 footer .method {
   font-size: 24px;
-  line-height: 36px;
   font-weight: 300;
 }
 footer .method a {

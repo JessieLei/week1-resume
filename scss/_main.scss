@@ -18,13 +18,11 @@ header {
 section {
   h2 {
     font-size: $font-l;
-    line-height: $line-height-l;
     font-weight: $font-weight-Medium;
     padding-bottom: 7px;
     border-bottom: 1px solid #000000;
     span {
       font-size: $font-m;
-      line-height: $line-height-m;
       font-weight: $font-weight-Demi-bold;
       padding-left: 16px;
       color: $second-color;
@@ -33,7 +31,6 @@ section {
   p {
     margin-top: 16px;
     font-size: $font-m;
-    line-height: $line-height-m;
     font-weight: $font-weight-Light;
   }
 }
@@ -48,7 +45,6 @@ section {
   padding: 24px 0 40px 0;
   h2 {
     font-size: $font-l;
-    line-height: $line-height-l;
     font-weight: $font-weight-Medium;
     color: #ffffff;
     padding-bottom: 7px;
@@ -56,7 +52,6 @@ section {
     border-bottom: 1px solid #ffffff;
     span {
       font-size: $font-m;
-      line-height: $line-height-m;
       font-weight: $font-weight-Demi-bold;
       padding-left: 16px;
       color: #ffffff;
@@ -64,14 +59,12 @@ section {
   }
   .skill-detail {
     ul {
-      width: 225px;
-      margin: 0 auto;
+      display: inline-block;
       text-align: left;
       padding-left: 24px;
       border-left: 1px solid #96a9c4;
       li {
         font-size: $font-m;
-        line-height: $line-height-m;
         font-weight: $font-weight-Light;
         color: #ffffff;
       }
@@ -87,7 +80,6 @@ section {
   li {
     padding-left: 24px;
     font-size: $font-m;
-    line-height: $line-height-m;
     font-weight: $font-weight-Medium;
     img {
       display: block;
@@ -95,7 +87,6 @@ section {
     p {
       width: 642px;
       font-size: $font-base;
-      line-height: $line-height-base;
       font-weight: 300;
       margin: 0;
     }
@@ -108,20 +99,17 @@ footer {
   color: #ffffff;
   h2 {
     font-size: $font-l;
-    line-height: $line-height-l;
     font-weight: $font-weight-Medium;
     padding: 24px 0 7px 0;
     border-bottom: 1px solid #ffffff;
     span {
       font-size: $font-m;
-      line-height: $line-height-m;
       font-weight: $font-weight-Medium;
       padding-left: 16px;
     }
   }
   .method {
     font-size: $font-m;
-    line-height: $line-height-m;
     font-weight: $font-weight-Light;
     a {
       text-decoration: none;
